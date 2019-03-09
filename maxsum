@@ -1,0 +1,7 @@
+numlist = input("Enter a list of number separated by commas: ")
+numlist = numlist.split(",")
+numlist = map(int, numlist)
+x = sorted(numlist)
+a = x[-1]
+b = x[-2]
+print(a+b)
