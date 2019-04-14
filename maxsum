@@ -1,3 +1,4 @@
+#This program takes a list of numbers and executes the biggest possible sum of two integers
 numlist = input("Enter a list of number separated by commas: ")
 numlist = numlist.split(",")
 numlist = map(int, numlist)
